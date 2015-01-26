@@ -1,0 +1,57 @@
+/**
+ * Bookmarks
+ * ----------------------------------------------------------------------------
+ */
+
+.job-manager-form.wp-job-manager-bookmarks-form {
+	max-width: none;
+	margin: 1em 0;
+	border: 0;
+	border-radius: 0;
+
+	a.bookmark-notice,
+	a.remove-bookmark {
+		@extend .button;
+
+		font-size: 14px;
+		box-shadow: none;
+		border-radius: 3px;
+		color: #fff;
+
+		&:before {
+			display: none;
+		}
+	}
+
+	a.remove-bookmark {
+		display: none;
+	}
+}
+
+.entry-content form.wp-job-manager-bookmarks-form,
+.modal form.wp-job-manager-bookmarks-form {
+	margin: 1em 0;
+	border: 0;
+	background: none;
+	max-width: 100%;
+}
+
+.modal .job-manager-form.wp-job-manager-bookmarks-form {
+	margin: 0;
+
+	div {
+		margin: 0;
+		padding: 30px;
+		display: block;
+	}
+
+	div:first-child:not(:only-child) {
+		display: none;
+	}
+
+	a.remove-bookmark {
+		display: inline-block;
+		margin: 0 0 1em;
+		float: left;
+	}
+}
