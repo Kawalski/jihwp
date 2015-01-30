@@ -19,3 +19,4 @@ installer-log.txt
 /wp-content/uploads/wp-sync-db/
 /wp-content/uploads/wpcf7_captcha/
 /wp-snapshots/
+/wc-logs/
