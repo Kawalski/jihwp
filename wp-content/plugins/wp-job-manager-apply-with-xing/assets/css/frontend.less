@@ -1,0 +1,187 @@
+@import "mixins";
+
+.single_job_listing {
+	.application {
+		.apply-with-xing {
+			text-align: center;
+			font-size: 1.1em;
+			line-height: 1em;
+			float: left;
+			margin: 0 0 20px .5em;
+			padding: .90909091em 2em;
+			outline: 0;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box;         /* Opera/IE 8+ */
+			float: right;
+			border-color: #015A5F;
+			.vertical_gradient( #028a91, #015A5F );
+			color: #fff;
+			text-shadow:0 1px 0 rgba(0,0,0,0.2);
+
+			&:disabled {
+				opacity: .5;
+			}
+		}
+		.apply-with-xing-profile {
+			position: relative;
+			padding: 0;
+			img {
+				float: left;
+				width: 80px;
+				height: auto;
+				margin: 0 1em 1em 0;
+			}
+			h2 {
+				margin: 0;
+				line-height: 30px;
+				clear: none;
+			}
+			strong.profile-headline {
+				margin: 0;
+				display: block;
+				line-height: 25px;
+			}
+			em.profile-location {
+				margin: 0;
+				display: block;
+				line-height: 25px;
+			}
+			dl {
+				clear: both;
+				margin: 0 0 1em;
+				padding: 0;
+				ul {
+					margin: 0;
+					padding: 0;
+				}
+				dd {
+					padding: 0;
+					margin: 0 0 .5em;
+				}
+			}
+		}
+		.apply-with-xing-details {
+			clear: both;
+			border: 1px solid #eee;
+			padding: .75em 1em 0;
+			margin: 0;
+			line-height: 1.5em;
+			display: block;
+			position: relative;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+			p {
+				margin: 0 0 .75em;
+			}
+			label {
+				font-weight: bold;
+			}
+			.apply-with-xing-cover-letter textarea {
+				width: 100%;
+				height: 150px;
+				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+				box-sizing: border-box;         /* Opera/IE 8+ */
+			}
+			.apply-with-xing-submit {
+				color: #999;
+			}
+			&:before {
+				content: "";
+				position: absolute;
+				margin: -10px 0 0 0;
+				top: 0;
+				right: 5em;
+				width: 0;
+				height: 0;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-bottom:10px solid #eee;
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				margin: -9px 1px 0 0;
+				right: 5em;
+				top: 0;
+				width: 0;
+				height: 0;
+				border-left: 9px solid transparent;
+				border-right: 9px solid transparent;
+				border-bottom: 9px solid #fff;
+			}
+		}
+	}
+}
+
+
+.animation(@rule){
+	-webkit-animation: @rule;
+	animation: @rule;
+}
+.animation-fill(@rule){
+	-webkit-animation-fill-mode: @rule;
+	animation-fill-mode: @rule;
+}
+.animation-delay(@rule){
+	-webkit-animation-delay:@rule;
+	animation-delay:@rule;
+}
+
+/** STYLE THIS PAGE AS YOU LIKE */
+html#xing-redirect {
+	background:#eee;
+	height: 100%;
+	body{
+		text-align:center;
+		display: -webkit-flex;
+		display: flex;
+		height: 100%;
+		-webkit-flex-flow: column wrap;
+		flex-flow: column wrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		margin: 0;
+		padding:10px;
+	}
+	.loading{
+		font-size:50px;
+		height:1em;
+		.animation(fadeout .5s 5s);
+		.animation-fill(forwards);
+		& span{
+			.animation(fadein .5s .5s alternate infinite);
+			&:nth-child(2){
+				.animation-delay(0.75s);
+			}
+			&:nth-child(3){
+				.animation-delay(1s);
+			}
+		}
+	}
+	p {
+		text-align:center;
+		font-family:helvetica;
+		opacity:0;
+		.animation(fadein 0.5s 3s);
+		.animation-fill(forwards);
+		color: #555;
+		.animation-delay(5s);
+		font-size: 14px;
+	}
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes fadein {
+		from {opacity:0;-webkit-transform:scale(0.2);}
+		to {opacity:1;-webkit-transform:scale(1);}
+	}
+	@-webkit-keyframes fadeout {
+		to {opacity:0;height:0;}
+	}
+	@keyframes fadein {
+		from {opacity:0;transform:scale(0.2);}
+		to {opacity:1;transform:scale(1);}
+	}
+	@keyframes fadeout {
+		to {opacity:0;height:0;}
+	}
+}

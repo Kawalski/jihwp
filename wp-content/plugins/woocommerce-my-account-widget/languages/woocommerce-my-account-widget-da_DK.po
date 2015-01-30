@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce My Account Widget v1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-13 17:59+0100\n"
+"PO-Revision-Date: 2014-11-19 18:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: Geev vormgeeving <info@geev.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx_noop:1,2;_n_noop:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.6.10\n"
+"Language: da\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:14
+msgid "WooCommerce My Account Widget shows order & account data"
+msgstr "WooCommerce My Account Widget viser ordre og konto data"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:15
+msgid "WooCommerce My Account Widget"
+msgstr "WooCommerce My Account Widget"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:27
+msgid "Logged out title:"
+msgstr "Logget ud titel:"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:28
+#: ../woocommerce-myaccount-widget.php:71
+msgid "Customer Login"
+msgstr "Kunde log ind"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:30
+msgid "Logged in title:"
+msgstr "Logget ind titel:"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:31
+#: ../woocommerce-myaccount-widget.php:72
+#, php-format
+msgid "Welcome %s"
+msgstr "Velkommen %s"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:34
+msgid "Show link to shopping cart"
+msgstr "Se link til indkøbskurven"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:36
+msgid "Show number of items in cart"
+msgstr "Se antallet af varer i indkøbskurven"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:41
+msgid "Show number of uploads left"
+msgstr "Se antallet af uploadede filer"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:44
+msgid "Show number of unpaid orders"
+msgstr "Se antallet af ubetalte ordre"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:46
+msgid "Show number of uncompleted orders"
+msgstr "Se antallet af ikke gennemførte ordre"
+
+#: ../woocommerce-myaccount-widget.php:48
+msgid "Show logout link"
+msgstr "Vis log ud link"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:93
+#: ../woocommerce-myaccount-widget.php:141
+#: ../woocommerce-myaccount-widget.php:206
+msgid "View your shopping cart"
+msgstr "Se din kurv"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:143
+msgid "product in your shopping cart"
+msgid_plural "products in your shoppingcart"
+msgstr[0] "produkt i din kurv"
+msgstr[1] "produkter i din kurv"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:149
+msgid "Upload files"
+msgstr "Upload filer"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:151
+msgid "file to upload"
+msgid_plural "files to upload"
+msgstr[0] "upload fil"
+msgstr[1] "upload filer"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:157
+msgid "Pay orders"
+msgstr "Betal ordre"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:159
+msgid "payment required"
+msgid_plural "payments required"
+msgstr[0] "betaling er nødvendig"
+msgstr[1] "betalinger er nødvendige"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:165
+msgid "View uncompleted orders"
+msgstr "Se ikke gennemførte ordre"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:167
+msgid "order pending"
+msgid_plural "orders pending"
+msgstr[0] "behandler bestilling"
+msgstr[1] "bestellingen in behandeling"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:172
+msgid "My Account"
+msgstr "Min konto"
+
+# @ default
+#: ../woocommerce-myaccount-widget.php:173
+msgid "Log out"
+msgstr "Log ud"
+
+#: ../woocommerce-myaccount-widget.php:181
+msgid "Login failed, please try again"
+msgstr "Log ind fejlede, forsøg venligst igen"
+
+# @ default
+#: ../woocommerce-myaccount-widget.php:188
+msgid "Username"
+msgstr "Brugernavn"
+
+# @ default
+#: ../woocommerce-myaccount-widget.php:189
+msgid "Password"
+msgstr "Password"
+
+# @ default
+#: ../woocommerce-myaccount-widget.php:190
+msgid "Remember Me"
+msgstr "Husk mig"
+
+# @ default
+#: ../woocommerce-myaccount-widget.php:191
+msgid "Log In"
+msgstr "Log ind"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:200
+msgid "Lost password?"
+msgstr "Mistet password"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-myaccount-widget.php:203
+msgid "Register"
+msgstr "Registrer"

@@ -1,0 +1,297 @@
+# Copyright (C) 2014 WP Job Manager - WooCommerce Paid Listings
+# This file is distributed under the same license as the WP Job Manager - WooCommerce Paid Listings package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - WooCommerce Paid Listings 2.1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-wc-paid-"
+"listings\n"
+"POT-Creation-Date: 2014-12-16 15:08:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-wc-product-job-package.php:42
+#: includes/class-wc-product-resume-package.php:40
+msgid "Add to cart"
+msgstr ""
+
+#: includes/class-wc-product-job-package.php:42
+#: includes/class-wc-product-resume-package.php:40
+msgid "Read More"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-admin.php:35
+msgid "Job Package"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-admin.php:37
+msgid "Resume Package"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-admin.php:40
+msgid "Job Package Subscription"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-admin.php:42
+msgid "Resume Package Subscription"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-cart.php:104
+#: includes/class-wp-job-manager-wcpl-cart.php:126
+msgid "Job Listing"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-cart.php:110
+#: includes/class-wp-job-manager-wcpl-cart.php:134
+msgid "Resume"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-forms.php:31
+msgid "Choose a package &rarr;"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-forms.php:97
+#: includes/class-wp-job-manager-wcpl-forms.php:121
+#: includes/class-wp-job-manager-wcpl-forms.php:146
+#: includes/class-wp-job-manager-wcpl-forms.php:294
+msgid "Choose a package"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-forms.php:142
+#: includes/class-wp-job-manager-wcpl-forms.php:289
+msgid "Submit &rarr;"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-forms.php:175
+#: includes/class-wp-job-manager-wcpl-forms.php:221
+#: includes/class-wp-job-manager-wcpl-forms.php:323
+#: includes/class-wp-job-manager-wcpl-forms.php:358
+msgid "Invalid Package"
+msgstr ""
+
+#: includes/class-wp-job-manager-wcpl-forms.php:184
+msgid "You already have this subscription."
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+
+#: includes/updater/views/html-key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: includes/views/html-job-package-data.php:2
+msgid "Job listing limit"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:2
+msgid ""
+"The number of job listings a user can post with this package. If more than "
+"1, registration will be forced on checkout."
+msgstr ""
+
+#: includes/views/html-job-package-data.php:2
+#: includes/views/html-resume-package-data.php:2 templates/my-packages.php:34
+msgid "Unlimited"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:7
+msgid "Job listing duration"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:7
+msgid "The number of days that the job listing will be active."
+msgstr ""
+
+#: includes/views/html-job-package-data.php:12
+msgid "Feature job listings?"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:12
+msgid "Feature this job listing - it will be styled differently and sticky."
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:2
+msgid "Resume posting limit"
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:2
+msgid ""
+"The number of resumes a user can post with this package. If more than 1, "
+"registration will be forced on checkout."
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:7
+msgid "Resume listing duration"
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:7
+msgid "The number of days that the resume will be active."
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:12
+msgid "Feature resumes?"
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:12
+msgid "Feature this resume - it will be styled differently and sticky."
+msgstr ""
+
+#: templates/my-packages.php:11
+msgid "My job packages"
+msgstr ""
+
+#: templates/my-packages.php:13
+msgid "My resume packages"
+msgstr ""
+
+#: templates/my-packages.php:20
+msgid "Package Name"
+msgstr ""
+
+#: templates/my-packages.php:21
+msgid "Remaining"
+msgstr ""
+
+#: templates/my-packages.php:23
+msgid "Listing Duration"
+msgstr ""
+
+#: templates/my-packages.php:25
+msgid "Featured?"
+msgstr ""
+
+#: templates/my-packages.php:36
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/my-packages.php:38
+msgid "Yes"
+msgstr ""
+
+#: templates/my-packages.php:38
+msgid "No"
+msgstr ""
+
+#: templates/package-selection.php:6 templates/resume-package-selection.php:6
+msgid "Your Packages:"
+msgstr ""
+
+#: templates/package-selection.php:15
+msgid "%s job posted out of %d"
+msgid_plural "%s jobs posted out of %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:17
+msgid "%s job posted"
+msgid_plural "%s jobs posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:21 templates/package-selection.php:44
+#: templates/resume-package-selection.php:21
+#: templates/resume-package-selection.php:44
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:30
+#: templates/resume-package-selection.php:30
+msgid "Purchase Package:"
+msgstr ""
+
+#: templates/package-selection.php:41
+msgid "%s for %d job"
+msgid_plural "%s for %s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:41
+#: templates/resume-package-selection.php:41
+msgid "unlimited"
+msgstr ""
+
+#: templates/package-selection.php:56
+#: templates/resume-package-selection.php:55
+msgid "No packages found"
+msgstr ""
+
+#: templates/resume-package-selection.php:15
+msgid "%s resume posted out of %d"
+msgid_plural "%s resumes posted out of %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/resume-package-selection.php:17
+msgid "%s resume posted"
+msgid_plural "%s resumes posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/resume-package-selection.php:41
+msgid "%s to post %d resume"
+msgid_plural "%s to post %s resumes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-wc-paid-listings.php:88
+msgctxt "job_listing"
+msgid "Pending Payment"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:93
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-wc-paid-listings.php:108
+msgid "Pending Payment"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - WooCommerce Paid Listings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/wc-paid-listings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add paid listing functionality via WooCommerce. Create 'job packages' as "
+"products with their own price, listing duration, listing limit, and job "
+"featured status and either sell them via your store or during the job "
+"submission process. A user's packages are shown on their account page and "
+"can be used to post future jobs if they allow more than 1 job listing. Also "
+"allows 'resume packages' if using the resumes add-on."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr ""

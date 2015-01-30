@@ -1,0 +1,100 @@
+# Copyright (C) 2014 WP Job Manager - Embeddable Job Widget
+# This file is distributed under the same license as the WP Job Manager - Embeddable Job Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Embeddable Job Widget 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-embeddable-job-widget\n"
+"POT-Creation-Date: 2014-12-31 17:31:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/updater/views/html-key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:7
+msgid "Enter your licence key and email and hit return. A valid key is required for automatic updates."
+msgstr ""
+
+#: includes/updater/views/html-key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: includes/updater/views/html-ms-update.php:6
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: templates/form-embed-code-generator.php:3
+msgid "Keyword"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:5
+msgid "Optionally choose a keyword to search"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:9
+msgid "Location"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:11
+msgid "Optionally choose a location to search"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:15
+msgid "Display Count"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:22
+msgid "Categories"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:33
+msgid "Any category"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:40
+msgid "Job Type"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:42
+msgid "Any job type"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:53
+msgid "Get Widget Embed Code"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:57
+msgid "Preview"
+msgstr ""
+
+#: templates/form-embed-code-generator.php:60
+msgid "Code"
+msgstr ""
+
+#: wp-job-manager-embeddable-job-widget.php:107
+msgid "No matching jobs found"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Embeddable Job Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/embeddable-job-widget"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Lets users generate and embed a widget containing your job listings on their own sites via a form added to your site with the shortcode [embeddable_job_widget_generator]."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr ""

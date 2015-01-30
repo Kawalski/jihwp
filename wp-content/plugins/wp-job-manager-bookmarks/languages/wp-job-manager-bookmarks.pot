@@ -1,0 +1,85 @@
+# Copyright (C) 2014 WP Job Manager - Bookmarks
+# This file is distributed under the same license as the WP Job Manager - Bookmarks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Bookmarks 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-bookmarks\n"
+"POT-Creation-Date: 2014-06-03 21:36:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/updater/class-wpjm-updater.php:270
+msgid "Licence"
+msgstr ""
+
+#: includes/updater/class-wpjm-updater.php:273
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+
+#: templates/bookmark-form.php:4
+msgid "Remove Bookmark"
+msgstr ""
+
+#: templates/bookmark-form.php:4
+msgid "This %s is bookmarked!"
+msgstr ""
+
+#: templates/bookmark-form.php:6
+msgid "Bookmark this %s"
+msgstr ""
+
+#: templates/bookmark-form.php:10
+msgid "Notes:"
+msgstr ""
+
+#: templates/bookmark-form.php:14
+msgid "Update Bookmark"
+msgstr ""
+
+#: templates/bookmark-form.php:14
+msgid "Add Bookmark"
+msgstr ""
+
+#: templates/my-bookmarks.php:5
+msgid "Bookmark"
+msgstr ""
+
+#: templates/my-bookmarks.php:6
+msgid "Notes"
+msgstr ""
+
+#: templates/my-bookmarks.php:24
+msgid "Delete"
+msgstr ""
+
+#: templates/my-bookmarks.php:43
+msgid "You currently have no bookmarks"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Bookmarks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/bookmarks/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allow logged in candidates and employers to bookmark jobs and resumes along "
+"with an added note."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr ""

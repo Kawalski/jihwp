@@ -1,0 +1,111 @@
+@import "mixins";
+
+.single_job_listing {
+	.application {
+		.apply-with-linkedin {
+			text-align: center;
+			font-size: 1.1em;
+			line-height: 1em;
+			float: left;
+			margin: 0 0 20px .5em;
+			padding: .90909091em 2em;
+			outline: 0;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box;         /* Opera/IE 8+ */
+			float: right;
+			border-color: #2771aa;
+			.vertical_gradient( #5fabd2, #2771aa );
+			color: #fff;
+			text-shadow:0 1px 0 rgba(0,0,0,0.2);
+		}
+		.apply-with-linkedin-profile {
+			position: relative;
+			padding: 0;
+			img {
+				float: left;
+				width: 80px;
+				height: auto;
+				margin: 0 1em 1em 0;
+			}
+			h2 {
+				margin: 0;
+				line-height: 30px;
+				clear: none;
+			}
+			strong.profile-headline {
+				margin: 0;
+				display: block;
+				line-height: 25px;
+			}
+			em.profile-location {
+				margin: 0;
+				display: block;
+				line-height: 25px;
+			}
+			dl {
+				clear: both;
+				margin: 0 0 1em;
+				padding: 0;
+				ul {
+					margin: 0;
+					padding: 0;
+				}
+				dd {
+					padding: 0;
+					margin: 0 0 .5em;
+				}
+			}
+		}
+		.apply-with-linkedin-details {
+			clear: both;
+			border: 1px solid #eee;
+			padding: .75em 1em 0;
+			margin: 0;
+			line-height: 1.5em;
+			display: block;
+			position: relative;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+			p {
+				margin: 0 0 .75em;
+			}
+			label {
+				font-weight: bold;
+			}
+			.apply-with-linkedin-cover-letter textarea {
+				width: 100%;
+				height: 150px;
+				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+				box-sizing: border-box;         /* Opera/IE 8+ */
+			}
+			.apply-with-linkedin-submit {
+				color: #999;
+			}
+			&:before {
+				content: "";
+				position: absolute;
+				margin: -10px 0 0 0;
+				top: 0;
+				right: 5em;
+				width: 0;
+				height: 0;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-bottom:10px solid #eee;
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				margin: -9px 1px 0 0;
+				right: 5em;
+				top: 0;
+				width: 0;
+				height: 0;
+				border-left: 9px solid transparent;
+				border-right: 9px solid transparent;
+				border-bottom: 9px solid #fff;
+			}
+		}
+	}
+}
